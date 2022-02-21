@@ -1,7 +1,7 @@
 
 # Gihub {#github}
 
-## Tutorial multiples cuentas github
+## Multiples cuentas github
 
 Autor: Denis Berroeta
 Fecha: 04-02-2022
@@ -11,16 +11,25 @@ La presente página tiene como objetivo orientar respecto a como trabajar con mu
 
 El presente procedimiento esta orientado a ususarios git desde la **terminal**
 
-- Crear la cuenta github con correo institucional
-    
-Ir a [https://github.com](https://github.com/) y presionar "*Sign Up*"  y continuar con el proceso de logearse pero con el **correo institucional**.
+<details>
+  <summary>Crear la cuenta github con correo institucional</summary>
 
-[GitHub: Where the world builds software](https://github.com/)
+<br>
+
+Ir a [https://github.com](https://github.com/) y presionar "*Sign Up*"  y continuar con el proceso de logearse pero con el **correo institucional**.
+  
+  [GitHub: Where the world builds software](https://github.com/)
 
 ![Untitled](images/Untitled.png)
 
-- Crear una SSH Key
-    
+</details>
+ 
+
+<details>
+  <summary>Crear una SSH Key</summary>
+
+<br>
+
 Para este paso se utiliza la referencia oficial sobre la [generación de SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) de la documentición oficial de Github. 
 
 Desde la Terminal escribir el siguiente comando reemplazando correo institucional:
@@ -47,8 +56,13 @@ Finalmente pregunta por una frase de seguraidad (también se puede presionar ent
 Si se hicieron bien los paso anteriores se tienen que haber creado las dos credenciales, como se ve en la figura se crean por pares.
 
 ![Untitled](images/Untitled%201.png)
+</details>
+ 
+
+<details>
+  <summary>Agregar Key Pública a la cuenta</summary>
     
-- Agregar Key Publica a la cuenta
+<br>
     
 Dirigirse [https://github.com](https://github.com/) logearse con la cuenta institucional, irse a "*[setting](https://github.com/settings/profile)" (hacer click sobre tu imagen avatar, derecha abajo)*
 
@@ -61,8 +75,12 @@ En el cuandro de texto "Key" que corresponde al lugar donde se pegará el texto 
 ![Untitled](images/Untitled%203.png)
 
 ![Untitled](images/Untitled%204.png)
+</details>
 
-- Agregar cuentas gitgub al alrchivo de configuración SSH
+<details>
+  <summary>Agregar cuentas Github al alrchivo de configuración SSH</summary>
+
+<br>
 
 Se creará un archivo donde se almacenará la configuración de las cuentas creadas.
 
@@ -86,18 +104,27 @@ HostName github.com
 User git
 IdentityFile ~/.ssh/id_rsa_cit
 ```
+</details>
 
-- Usar credenciales institucionales
+<details>
+  <summary>Usar credenciales institucionales</summary>
+
+<br>
 
 Crear repositorio nuevo en github para luego clonarlo en repositorio local y se define el "*remote*" con el nombre de la credencial que se definión en el archivo de config de ssh. **
 
 ```bash
 git init
-git commit -am "first commit'
+git commit -am "first commit"
 git remote add origin [git@](mailto:git@github.com)github-cit-denis:DenisBerroeta/Desnivel_Positivo.git
 ```
 
-- Cambiar usuario de un Repositorio existente
+</details>
+
+<details>
+  <summary>Cambiar usuario de un Repositorio existente</summary>
+  
+  <br>
 
 
 Setear el nombre y correo Institucional ([link](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository)), con los siguientes comandos:
@@ -116,13 +143,17 @@ git config user.name "DenisBerroeta"
 git remote set-url origin [git@](mailto:git@github.com)github-cit-denis:DenisBerroeta/Desnivel_Positivo.git
 ```
 
+</details>
 
-### Referencias:
 
-[Quick Tip: How to Work with GitHub and Multiple Accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574)
+<br>
 
-[Connecting to GitHub with SSH - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+**Referencias:**
 
-[programador clic](https://programmerclick.com/article/8475165625/)
+- [Quick Tip: How to Work with GitHub and Multiple Accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574)
 
-[Multiple GitHub accounts on the same computer?](https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
+- [Connecting to GitHub with SSH - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
+- [programador clic](https://programmerclick.com/article/8475165625/)
+
+- [Multiple GitHub accounts on the same computer?](https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)

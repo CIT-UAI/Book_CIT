@@ -5,3 +5,5 @@ intro
 github
 tutorial-multiples-cuentas-github
 referencias
+a-collapsible-section-with-markdown
+multiples-cuentas-github

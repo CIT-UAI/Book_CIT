@@ -5,20 +5,20 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Capítulo 3 Gihub | METODOLOGÍA DE CÁLCULO</title>
-  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="description" content="Libro con el objetivo de testear una forma de comunicar cálculo de IBT en sus versiones 2012 y 2017." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Capítulo 3 Gihub | METODOLOGÍA DE CÁLCULO" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta property="og:description" content="Libro con el objetivo de testear una forma de comunicar cálculo de IBT en sus versiones 2012 y 2017." />
+  <meta name="github-repo" content="cit-uai.github.io/Book_CIT" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Capítulo 3 Gihub | METODOLOGÍA DE CÁLCULO" />
   
-  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="twitter:description" content="Libro con el objetivo de testear una forma de comunicar cálculo de IBT en sus versiones 2012 y 2017." />
   
 
 <meta name="author" content="Centro de Inteligencia Territorial - UAI" />
@@ -163,10 +163,7 @@ div.csl-indent {
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
 <li class="chapter" data-level="3" data-path="github.html"><a href="github.html"><i class="fa fa-check"></i><b>3</b> Gihub</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="github.html"><a href="github.html#tutorial-multiples-cuentas-github"><i class="fa fa-check"></i><b>3.1</b> Tutorial multiples cuentas github</a>
-<ul>
-<li class="chapter" data-level="3.1.1" data-path="github.html"><a href="github.html#referencias"><i class="fa fa-check"></i><b>3.1.1</b> Referencias:</a></li>
-</ul></li>
+<li class="chapter" data-level="3.1" data-path="github.html"><a href="github.html#multiples-cuentas-github"><i class="fa fa-check"></i><b>3.1</b> Multiples cuentas github</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -190,24 +187,29 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="github" class="section level1" number="3">
 <h1><span class="header-section-number">Capítulo 3</span> Gihub</h1>
-<div id="tutorial-multiples-cuentas-github" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Tutorial multiples cuentas github</h2>
+<div id="multiples-cuentas-github" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Multiples cuentas github</h2>
 <p>Autor: Denis Berroeta
 Fecha: 04-02-2022</p>
 <p>La presente página tiene como objetivo orientar respecto a como trabajar con multiples cuentas github, a raíz de la iniciativa de crear un “<em>organización”</em> en github, para el trabajo colaborativo pero con cuentas creadas con el correo institucional del Universidad.</p>
 <p>El presente procedimiento esta orientado a ususarios git desde la <strong>terminal</strong></p>
-<ul>
-<li>Crear la cuenta github con correo institucional</li>
-</ul>
+<details>
+<summary>
+Crear la cuenta github con correo institucional
+</summary>
+<p><br></p>
 <p>Ir a <a href="https://github.com/">https://github.com</a> y presionar “<em>Sign Up</em>” y continuar con el proceso de logearse pero con el <strong>correo institucional</strong>.</p>
 <p><a href="https://github.com/">GitHub: Where the world builds software</a></p>
 <div class="figure">
 <img src="images/Untitled.png" alt="" />
 <p class="caption">Untitled</p>
 </div>
-<ul>
-<li>Crear una SSH Key</li>
-</ul>
+</details>
+<details>
+<summary>
+Crear una SSH Key
+</summary>
+<p><br></p>
 <p>Para este paso se utiliza la referencia oficial sobre la <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">generación de SSH Keys</a> de la documentición oficial de Github.</p>
 <p>Desde la Terminal escribir el siguiente comando reemplazando correo institucional:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="github.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519 <span class="at">-C</span> <span class="st">&quot;*your_email@example.com*&quot;</span></span></code></pre></div>
@@ -218,13 +220,13 @@ Fecha: 04-02-2022</p>
 <pre><code>&gt; Enter passphrase (empty for no passphrase):[Type a passphrase]
 &gt; Enter same passphrase again:[Type passphrase again]</code></pre>
 <p>Si se hicieron bien los paso anteriores se tienen que haber creado las dos credenciales, como se ve en la figura se crean por pares.</p>
-<div class="figure">
-<img src="images/Untitled%201.png" alt="" />
-<p class="caption">Untitled</p>
-</div>
-<ul>
-<li>Agregar Key Publica a la cuenta</li>
-</ul>
+<img src="images/Untitled%201.png" title="fig:" alt="Untitled" />
+</details>
+<details>
+<summary>
+Agregar Key Pública a la cuenta
+</summary>
+<p><br></p>
 <p>Dirigirse <a href="https://github.com/">https://github.com</a> logearse con la cuenta institucional, irse a “<em><a href="https://github.com/settings/profile">setting</a>” (hacer click sobre tu imagen avatar, derecha abajo)</em></p>
 <div class="figure">
 <img src="images/Untitled%202.png" alt="" />
@@ -236,13 +238,13 @@ Fecha: 04-02-2022</p>
 <img src="images/Untitled%203.png" alt="" />
 <p class="caption">Untitled</p>
 </div>
-<div class="figure">
-<img src="images/Untitled%204.png" alt="" />
-<p class="caption">Untitled</p>
-</div>
-<ul>
-<li>Agregar cuentas gitgub al alrchivo de configuración SSH</li>
-</ul>
+<img src="images/Untitled%204.png" title="fig:" alt="Untitled" />
+</details>
+<details>
+<summary>
+Agregar cuentas Github al alrchivo de configuración SSH
+</summary>
+<p><br></p>
 <p>Se creará un archivo donde se almacenará la configuración de las cuentas creadas.</p>
 <p>Generalemente existe un archivo llamado “config” en la ruta “<code>~/.ssh/config</code>” en caso que no existe se debe crear:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="github.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> ~/.ssh/config</span></code></pre></div>
@@ -257,27 +259,36 @@ Fecha: 04-02-2022</p>
 <span id="cb7-8"><a href="github.html#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="ex">HostName</span> github.com</span>
 <span id="cb7-9"><a href="github.html#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="ex">User</span> git</span>
 <span id="cb7-10"><a href="github.html#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="ex">IdentityFile</span> ~/.ssh/id_rsa_cit</span></code></pre></div>
-<ul>
-<li>Usar credenciales institucionales</li>
-</ul>
+</details>
+<details>
+<summary>
+Usar credenciales institucionales
+</summary>
+<p><br></p>
 <p>Crear repositorio nuevo en github para luego clonarlo en repositorio local y se define el “<em>remote</em>” con el nombre de la credencial que se definión en el archivo de config de ssh. **</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="github.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
-<span id="cb8-2"><a href="github.html#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-am</span> <span class="st">&quot;first commit&#39;</span></span>
-<span id="cb8-3"><a href="github.html#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="st">git remote add origin [git@](mailto:git@github.com)github-cit-denis:DenisBerroeta/Desnivel_Positivo.git</span></span></code></pre></div>
-<ul>
-<li>Cambiar usuario de un Repositorio existente</li>
-</ul>
+<span id="cb8-2"><a href="github.html#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-am</span> <span class="st">&quot;first commit&quot;</span></span>
+<span id="cb8-3"><a href="github.html#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin [git@]<span class="er">(</span><span class="ex">mailto:git@github.com</span><span class="kw">)</span><span class="ex">github-cit-denis:DenisBerroeta/Desnivel_Positivo.git</span></span></code></pre></div>
+</details>
+<details>
+<summary>
+Cambiar usuario de un Repositorio existente
+</summary>
+<p><br></p>
 <p>Setear el nombre y correo Institucional (<a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository">link</a>), con los siguientes comandos:</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="github.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config user.email <span class="st">&quot;*email@example.com*&quot;</span></span></code></pre></div>
 <div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="github.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config user.name <span class="st">&quot;DenisBerroeta&quot;</span></span></code></pre></div>
 <p><a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository">Setting your commit email address - GitHub Docs</a></p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="github.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote set-url origin [git@]<span class="er">(</span><span class="ex">mailto:git@github.com</span><span class="kw">)</span><span class="ex">github-cit-denis:DenisBerroeta/Desnivel_Positivo.git</span></span></code></pre></div>
-<div id="referencias" class="section level3" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> Referencias:</h3>
-<p><a href="https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574">Quick Tip: How to Work with GitHub and Multiple Accounts</a></p>
-<p><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">Connecting to GitHub with SSH - GitHub Docs</a></p>
-<p><a href="https://programmerclick.com/article/8475165625/">programador clic</a></p>
-<p><a href="https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer">Multiple GitHub accounts on the same computer?</a></p>
+</details>
+<p><br></p>
+<p><strong>Referencias:</strong></p>
+<ul>
+<li><p><a href="https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574">Quick Tip: How to Work with GitHub and Multiple Accounts</a></p></li>
+<li><p><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">Connecting to GitHub with SSH - GitHub Docs</a></p></li>
+<li><p><a href="https://programmerclick.com/article/8475165625/">programador clic</a></p></li>
+<li><p><a href="https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer">Multiple GitHub accounts on the same computer?</a></p></li>
+</ul>
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div class="csl-entry">
@@ -285,7 +296,6 @@ Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd 
 </div>
 <div class="csl-entry">
 ———. 2021. <em>Bookdown: Authoring Books and Technical Documents with r Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown">https://CRAN.R-project.org/package=bookdown</a>.
-</div>
 </div>
 </div>
 </div>
