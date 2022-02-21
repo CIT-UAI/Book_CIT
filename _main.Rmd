@@ -1,5 +1,5 @@
 --- 
-title: "A Minimal Book Example"
+title: "Centro de Inteligencia Territorial - UAI"
 author: "Yihui Xie"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
