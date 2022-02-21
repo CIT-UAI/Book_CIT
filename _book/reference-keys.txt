@@ -1,11 +1,7 @@
 fig:nice-fig
 tab:nice-tab
-prerequisites
+descripción-general
 intro
-literature
-methods
-math-example
-applications
-example-one
-example-two
-final-words
+github
+tutorial-multiples-cuentas-github
+referencias
