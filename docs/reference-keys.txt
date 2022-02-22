@@ -1,7 +1,0 @@
-fig:nice-fig
-tab:nice-tab
-descripción-general
-intro
-github
-tutorial-multiples-cuentas-github
-referencias

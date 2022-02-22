@@ -1,0 +1,25 @@
+# Dimensión Accesibilidad {#accesibilidad}
+
+## Indicador de Salud
+
+Texto de ejemplo 
+
+## Indicador de Cultura
+
+Texto de ejemplo 
+
+## Indicador de Áreas Verdes
+
+Texto de ejemplo 
+
+## Indicador de Deportes
+
+Texto de ejemplo 
+
+## Indicador de Servicios de Educación
+
+Texto de ejemplo 
+
+## Indicador de Servicios Públicos
+
+Texto de ejemplo 

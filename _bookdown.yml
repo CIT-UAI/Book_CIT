@@ -3,4 +3,4 @@ language:
   ui:
     chapter_name: "Capítulo "
 delete_merged_file: true
-rmd_files: ["index.Rmd", "intro.Rmd", "github.Rmd"]
+rmd_files: ["index.Rmd", "intro.Rmd", "dim_acc.Rmd",  "github.Rmd"]

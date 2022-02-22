@@ -7,3 +7,10 @@ tutorial-multiples-cuentas-github
 referencias
 a-collapsible-section-with-markdown
 multiples-cuentas-github
+accesibilidad
+indicador-de-salud
+indicador-de-cultura
+indicador-de-áreas-verdes
+indicador-de-deportes
+indicador-de-servicios-de-educación
+indicador-de-servicios-públicos
