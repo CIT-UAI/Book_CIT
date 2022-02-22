@@ -6,7 +6,7 @@ $$A_i = \sum_{j=1}^n (O_j/D_j) e ^{-\beta c_{ij}}$$
 
 ```{r echo=FALSE}
 
-knitr::include_url("http://119.8.150.209:3838/apps/Ciudades/QUILLOTA_LA_CALERA/ZONAS/", height = "500px")
+knitr::include_url("https://119.8.150.209/apps/Ciudades/QUILLOTA_LA_CALERA/ZONAS/", height = "500px")
 ```
 
 
