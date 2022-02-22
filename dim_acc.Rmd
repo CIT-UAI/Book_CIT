@@ -3,12 +3,11 @@
 $$A_i = \sum_{j=1}^n (O_j/D_j) e ^{-\beta c_{ij}}$$
 
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="700"
-    height="500"
-    src="http://119.8.150.209:3838/apps/Ciudades/QUILLOTA_LA_CALERA/ZONAS/">
-</iframe>
+
+```{r echo=FALSE}
+
+knitr::include_url("http://119.8.150.209:3838/apps/Ciudades/QUILLOTA_LA_CALERA/ZONAS/", height = "500px")
+```
 
 
 ## Indicador de Salud
