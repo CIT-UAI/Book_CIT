@@ -20,7 +20,7 @@ Ir a [https://github.com](https://github.com/) y presionar "*Sign Up*"  y contin
   
   [GitHub: Where the world builds software](https://github.com/)
 
-![Untitled](images/Untitled.png)
+![](images/Untitled.png)
 
 </details>
  
@@ -55,7 +55,7 @@ Finalmente pregunta por una frase de seguraidad (también se puede presionar ent
 
 Si se hicieron bien los paso anteriores se tienen que haber creado las dos credenciales, como se ve en la figura se crean por pares.
 
-![Untitled](images/Untitled%201.png)
+![](images/Untitled%201.png)
 </details>
  
 
@@ -66,15 +66,15 @@ Si se hicieron bien los paso anteriores se tienen que haber creado las dos crede
     
 Dirigirse [https://github.com](https://github.com/) logearse con la cuenta institucional, irse a "*[setting](https://github.com/settings/profile)" (hacer click sobre tu imagen avatar, derecha abajo)*
 
-![Untitled](images/Untitled%202.png)
+![](images/Untitled%202.png)
 
 irse a "[SSH and GPG keys](https://github.com/settings/keys)", y hacer click sobre el botón "[New SSh key](https://github.com/settings/ssh/new)". Se abrirá el siguiente cuadros de textos para rellenar, el primero "Title" que corresponde al nombre que tendrá la key (puede ser cualquiera, que identifique el pc donde creaste las keys de la etapa anterior).
 
 En el cuandro de texto "Key" que corresponde al lugar donde se pegará el texto de la key publica creada en la etapa anterior (*file.pub*).
 
-![Untitled](images/Untitled%203.png)
+![](images/Untitled%203.png)
 
-![Untitled](images/Untitled%204.png)
+![](images/Untitled%204.png)
 </details>
 
 <details>
