@@ -1,5 +1,7 @@
 # Dimensión Accesibilidad {#accesibilidad}
 
+$$A_i = \sum_{j=1}^n (O_j/D_j) e ^{-\beta c_{ij}}$$
+
 ## Indicador de Salud
 
 Texto de ejemplo 
