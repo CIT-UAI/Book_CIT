@@ -24,7 +24,7 @@
 <meta name="author" content="Centro de Inteligencia Territorial - UAI" />
 
 
-<meta name="date" content="2022-02-21" />
+<meta name="date" content="2022-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -176,8 +176,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1><span class="header-section-number">Capítulo 4</span> GitHub</h1>
 <div id="multiples-cuentas-github" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Multiples cuentas github</h2>
-<p>Autor: Denis Berroeta
-Fecha: 04-02-2022</p>
+<p><strong>Autor</strong>: Denis Berroeta</p>
+<p><strong>Fecha</strong>: 04-02-2022</p>
 <p>La presente página tiene como objetivo orientar respecto a como trabajar con multiples cuentas github, a raíz de la iniciativa de crear un “<em>organización”</em> en github, para el trabajo colaborativo pero con cuentas creadas con el correo institucional del Universidad.</p>
 <p>El presente procedimiento esta orientado a ususarios git desde la <strong>terminal</strong></p>
 <details>
@@ -204,19 +204,19 @@ Crear una SSH Key
 <pre><code>&gt; Enter passphrase (empty for no passphrase):[Type a passphrase]
 &gt; Enter same passphrase again:[Type passphrase again]</code></pre>
 <p>Si se hicieron bien los paso anteriores se tienen que haber creado las dos credenciales, como se ve en la figura se crean por pares.</p>
-<img src="images/Untitled%201.png" />
+<p><img src="images/Untitled%201.png" /></p>
 </details>
 <details>
 <summary>
 Agregar Key Pública a la cuenta
 </summary>
 <p><br></p>
-<p>Dirigirse <a href="https://github.com/">https://github.com</a> logearse con la cuenta institucional, irse a “<em><a href="https://github.com/settings/profile">setting</a>” (hacer click sobre tu imagen avatar, derecha abajo)</em></p>
+<p>Dirigirse <a href="https://github.com/">https://github.com</a> logearse con la cuenta institucional, irse a “<a href="https://github.com/settings/profile"><em>setting</em></a><em>” (hacer click sobre tu imagen avatar, derecha abajo)</em></p>
 <p><img src="images/Untitled%202.png" /></p>
 <p>irse a “<a href="https://github.com/settings/keys">SSH and GPG keys</a>,” y hacer click sobre el botón “<a href="https://github.com/settings/ssh/new">New SSh key</a>.” Se abrirá el siguiente cuadros de textos para rellenar, el primero “Title” que corresponde al nombre que tendrá la key (puede ser cualquiera, que identifique el pc donde creaste las keys de la etapa anterior).</p>
 <p>En el cuandro de texto “Key” que corresponde al lugar donde se pegará el texto de la key publica creada en la etapa anterior (<em>file.pub</em>).</p>
 <p><img src="images/Untitled%203.png" /></p>
-<img src="images/Untitled%204.png" />
+<p><img src="images/Untitled%204.png" /></p>
 </details>
 <details>
 <summary>
@@ -307,7 +307,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/github.Rmd",
+"link": "https://cit-uai.github.io/Book_CIT/github.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -330,20 +330,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

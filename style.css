@@ -10,5 +10,9 @@ pre {
   word-wrap: normal;
 }
 pre code {
-  white-space: inherit;
+  color: #eb5757 !important;
+}
+
+code {
+  color: #eb5757 !important;
 }

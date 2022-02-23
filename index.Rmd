@@ -1,4 +1,4 @@
---- 
+---
 title: "METODOLOGÍA DE CÁLCULO"
 subtitle: "Indicador de Bienestar Territorial"
 author: "Centro de Inteligencia Territorial - UAI"
